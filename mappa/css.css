@@ -1,0 +1,97 @@
+body{
+
+	background-color: darkcyan;
+}
+
+.header{
+	background-color:whitesmoke;
+
+	
+
+}
+
+.header h1{color: darkcyan;
+	text-align: center;
+	font-family: monospace;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100%;
+}
+
+nav{
+	height: 100px;
+	background-color: whitesmoke;
+}
+div.menu ul{
+	vertical-align: middle;
+}
+div.menu ul{
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+
+div.menu ul a {
+	text-decoration: none;
+	color: darkcyan;
+    line-height: 100px;
+    margin-left: 30px;
+    font-size: 1.3em;
+    font-family: monospace;
+
+}
+
+div.menu ul a:hover{ 
+	color: black;
+ }
+
+img {
+max-width: 20em;
+max-height: 20em;
+display: inline-block;
+border-radius: 30px;
+box-shadow: 10px black;
+
+
+}
+div.kepek{
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-family: monospace;
+}
+
+p{
+	text-align: center;
+	font-family: monospace;
+	font-size: 1.2em;
+	margin: 0 21% 0 21% ;
+	background-color: whitesmoke 0.5;
+
+}
+
+h2, h3, h4, h6{ 
+	text-align: center;
+	font-size: 1.4rem;
+	font-family: monospace;
+	margin-top: 10%;
+}
+h5{
+	font-family: monospace;
+	font-size: 1rem;
+	margin-top: 5%;
+	text-align: center;
+}
+
+div.segedanyag ul{
+	background-color: darkcyan;
+}
